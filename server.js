@@ -13,7 +13,7 @@ app.get('/api/user', (req,res)=>{
 // POST API
 app.post('/api/data', (req,res)=>{
   console.log("Post request received with data");
-  res.status(200).json({message: 'POST request hitted.'})
+  res.status(200).json({message: 'POST request hitted.'});
 })
 
 app.listen(PORT, ()=>{
